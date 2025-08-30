@@ -34,16 +34,17 @@ The tool automatically **sends a styled email report once a week** summarizing a
 ## 📂 Project Structure
 
 Influencer_Monitor/
-│── .env # 🔐 API keys and email credentials
-│── channels.yaml # 📋 List of influencer channels
-│── collector.py # 📡 Fetches data from YouTube API
-│── reporter.py # 📝 Generates email report
-│── emailer.py # 📧 Sends emails
-│── main.py # 🚀 Entry point
-│── requirements.txt # 📦 Python dependencies
-│── Procfile # 🖥 For Heroku deployment
-|── summarizer
+- │── .env # 🔐 API keys and email credentials
+- │── channels.yaml # 📋 List of influencer channels
+- │── collector.py # 📡 Fetches data from YouTube API
+- │── reporter.py # 📝 Generates email report
+- │── emailer.py # 📧 Sends emails
+- │── main.py # 🚀 Entry point
+- │── requirements.txt # 📦 Python dependencies
+- │── Procfile # 🖥 For Heroku deployment
+- |── summarizer
 
 ## 👩‍💻 Author
 
 **dhathripenmatsa**
+
